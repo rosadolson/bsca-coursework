@@ -1,0 +1,23 @@
+.playerInfo{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: gray;
+    border: 4px solid #bdc3c7;
+    border-radius: 10px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.jumbotitle{
+    text-align: center;
+    background-color: #ecf0f1;
+    color: gray;
+    border: 4px solid gray;
+}
+
+h2 {
+    color: #bdc3c7;
+}
