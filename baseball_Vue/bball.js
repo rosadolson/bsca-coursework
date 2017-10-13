@@ -89,4 +89,4 @@ const nameOfClevelandHomeruns = baseballPlayers.filter( player => {
 const fullSentences = baseballPlayers.map( player => {
     return `${player.name} played for the ${player.team.split(' ').pop()} and had ${player.HR} homeruns`
 })
-console.log(fullSentences);
+//console.log(fullSentences);
