@@ -24,14 +24,14 @@ const baseballPlayers = [
   
   // 1) Use map or filter to return an array of baseball player names.
   // examples -> ["Barry Bonds", "Hank Aaron", "Babe Ruth", etc..]
-namesOnly = baseballPlayers.map( player => {
+const namesOnly = baseballPlayers.map( player => {
     return player.name
 })
 //console.log(namesOnly);
 
   
   // 2) User map or filter to return an array of only players that play for the Cleveland Indians
-clevelandIndiansPlayers = baseballPlayers.filter( player => {
+const clevelandIndiansPlayers = baseballPlayers.filter( player => {
     return player.team === 'Cleveland Indians'
 })
 //console.log(clevelandIndiansPlayers);
@@ -87,6 +87,6 @@ const nameOfClevelandHomeruns = baseballPlayers.filter( player => {
   //  "Hank Aaron played for the Braves and had 755 homeruns",
   //  "Babe Ruth played for the Yankees and had 714 homeruns",]
 const fullSentences = baseballPlayers.map( player => {
-    return `${player.name} played for the ${player.team} and had ${player.HR} homeruns`
+    return `${player.name} played for the ${player.team.split(' ').pop()} and had ${player.HR} homeruns`
 })
-//console.log(fullSentences);
+console.log(fullSentences);

@@ -33,14 +33,14 @@ const printNumbers = (arr) => {
 // console.log(printNumbers(numbers));
 
 //ARRAY.map(function) 
-// const printNumbersMap = numbers.map(function(ldfgjhadf){
-//     return ldfgjhadf * 2
-// })
+const printNumbersMap = numbers.map(function(ldfgjhadf){
+    return ldfgjhadf * 2
+})
 // console.log(printNumbersMap)
 
-// const printNumbersMap = numbers.map((number) => {
-//     return number * 2
-// })
+const printNumbersMap = numbers.map((number) => {
+    return number * 2
+})
 // console.log(printNumbersMap)
 
 const printNumbersMap = numbers.map(number => number * 2)
@@ -73,10 +73,12 @@ const numsGreaterThanFive = (arr) => {
 }
 //console.log(numsGreaterThanFive(numbers));
 
+
 const numsGreaterThanFiveFilter = numbers.filter( num => {
     return num > 5 && num < 9
 })
 // console.log(numsGreaterThanFiveFilter);
+
 
 const mapAndFilterNumbers = numbers.filter( num => {
     return num < 4 
