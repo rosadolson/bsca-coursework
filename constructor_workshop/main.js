@@ -86,4 +86,7 @@ const createRecipe = (numRecipes) => {
     return result
 }
 
-console.log(createRecipe(7)); 
+const recipes = createRecipe(6)
+
+recipes[4].ingredients.flour='4 cups'
+console.log(recipes[4]);
