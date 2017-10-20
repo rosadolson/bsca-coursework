@@ -1,0 +1,75 @@
+
+.title-jumbotron {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #34495e;
+    background: #ecf0f1;
+    border: 4px dotted #34495e;
+    border-radius: none;
+}
+
+
+
+.navigation a {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.monsters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ecf0f1;
+    border: 4px dotted #34495e;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.monster-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border: 4px solid #2c3e50;
+    border-radius: none;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+
+.monster-card img {
+    width: 50%;
+    border: 4px solid #2c3e50;
+    border-radius: 1%;
+}
+
+
+.diet-title {
+    padding-top: 3%;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border: 4px dotted #34495e;
+    background: #ecf0f1;
+}
+
+
+.form-group {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
