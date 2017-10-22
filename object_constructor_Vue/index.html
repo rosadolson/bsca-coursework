@@ -37,13 +37,13 @@
                             <li v-for="i in c.ingredients">{{ i }}</li>
                         </ul>
                     </div>
-                    <button class="btn default order-button">Add to Order</button>
+                    <button class="btn default order-button" v-on:click="orderCupcake">Add to Order</button>
             </div>
         </div>
     </div>
 
     <footer class="footer">
-        <div class="copywright"><p>&copy 2017 CUPCAKE SHOP</p></div>
+        <div class="copywright"><p>&copy 2017 CUPCAKE BAKERY</p></div>
     </footer>
     
 </body>

@@ -18,8 +18,13 @@ cupcakes.push(vanilla, chocolate, redVelvet, lemon, coconut);
 const cupcakeVue = {
     el: "#cupcake-app",
     data: {
-        title: "Cupcakes",
+        title: "Cupcake Bakery",
         cupcakes: cupcakes, 
+    },
+    methods: {
+        orderCupcake: () => {
+            alert('Good choice! This cupcake has been added to your order.')
+        }
     }
 }
 
