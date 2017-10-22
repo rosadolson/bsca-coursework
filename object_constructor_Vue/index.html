@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +12,13 @@
 </head>
 
 <body>
-
-        <nav class="navbar fixed-top navigation">
-                <a  href="#">Home</a>
-                <a  href="#">About Us</a>
-                <a  href="#">Menu</a>
-                <a  href="#">Your Order</a>
-                <a  href="#">Contact</a>
-        </nav>
+    <nav class="navbar fixed-top navigation">
+        <a  href="#">Home</a>
+        <a  href="#">About Us</a>
+        <a  href="#">Menu</a>
+        <a  href="#">Your Order</a>
+        <a  href="#">Contact</a>
+    </nav>
 
     <div class="container" id="cupcake-app">
         <div class="cupcake-title">
@@ -31,13 +29,13 @@
             <div v-for="c in cupcakes" class="cupcake-box">
                 <h3>{{ c.flavor }}</h3>
                 <img :src="c.img"/>
-                 <h4 class="ingredient-title">Ingredients:</h4>
+                <h4 class="ingredient-title">Ingredients:</h4>
                     <div class="ingredient-list">
                         <ul>
                             <li v-for="i in c.ingredients">{{ i }}</li>
                         </ul>
                     </div>
-                    <button class="btn default order-button" v-on:click="orderCupcake">Add to Order</button>
+                <button class="btn default order-button" v-on:click="orderCupcake">Add to Order</button>
             </div>
         </div>
     </div>
@@ -47,11 +45,9 @@
     </footer>
     
 </body>
-
     <script src="https://unpkg.com/vue"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-
 </html>
