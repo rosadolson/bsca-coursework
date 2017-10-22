@@ -22,10 +22,8 @@
         </div>
 
         <div class="cupcake-container">
-
             <div v-for="c in cupcakes" class="cupcake-box">
                 <h2>{{ c.flavor }}</h2>
-
                 <img :src="c.img"/>
                  <h3 class="ingredient-title">Ingredients:</h3>
                     <div class="ingredient-list">
@@ -33,13 +31,14 @@
                             <li v-for="i in c.ingredients">{{ i }}</li>
                         </ul>
                     </div>
-
             </div>
-
         </div>
 
     </div>
 
+    <footer class="footer">
+        <p>&copy 2017 CUPCAKE SHOP</p>
+    </footer>
     
 </body>
 

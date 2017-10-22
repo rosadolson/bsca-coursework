@@ -18,7 +18,7 @@ cupcakes.push(vanilla, chocolate, redVelvet, lemon, coconut);
 const cupcakeVue = {
     el: "#cupcake-app",
     data: {
-        title: "Cupcakes",
+        title: "cupcakes",
         cupcakes: cupcakes, 
     }
 }
